@@ -6,4 +6,4 @@ def tower_of_hanoi(disks,source,auxiliary,target):
     print('move disks {} from rod {} to rod {}.'.format(disks,source,target))
     tower_of_hanoi(disks - 1,auxiliary,source,target)
 disks = int(input('Enter the number of disks :'))
-tower_of_hanoi(disks,'A','B','C')
+tower_of_hanoi(disks,'1','2','3')
